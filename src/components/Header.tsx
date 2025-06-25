@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src="/bluekeygestao-airbnb.jpg"
+              src=""
               alt="BlueKey Gestão"
               className="h-10 w-auto"
             />
