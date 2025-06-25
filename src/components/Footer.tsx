@@ -20,11 +20,6 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <img
-                src="/bluekeygestao-airbnb.jpg"
-                alt="BlueKey Gestão"
-                className="h-12 w-auto"
-              />
             </div>
             
             <p className="text-blue-100 text-lg leading-relaxed mb-6 max-w-md">
