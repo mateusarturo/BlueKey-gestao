@@ -1,11 +1,10 @@
-import React from 'react';
-import { MessageCircle, Phone, ArrowRight } from 'lucide-react';
+import { MessageCircle, Phone, ArrowRight } from "lucide-react";
 
 const CTA = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -22,19 +21,25 @@ const CTA = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
             Quer transformar seu imóvel em uma
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500">
-              {' '}máquina de lucro{' '}
+              {" "}
+              máquina de lucro{" "}
             </span>
             sem dor de cabeça?
           </h2>
-          
+
           <p className="text-xl md:text-2xl text-blue-100 mb-12 leading-relaxed">
-            Fale com a BlueKey agora e descubra como podemos maximizar a rentabilidade do seu investimento!
+            Fale com a BlueKey agora e descubra como podemos maximizar a
+            rentabilidade do seu investimento!
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-              <div className="text-3xl font-bold text-yellow-400 mb-2">Grátis</div>
-              <div className="text-blue-100">Consulta inicial sem compromisso</div>
+              <div className="text-3xl font-bold text-yellow-400 mb-2">
+                Grátis
+              </div>
+              <div className="text-blue-100">
+                Consulta inicial sem compromisso
+              </div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
               <div className="text-3xl font-bold text-yellow-400 mb-2">24h</div>
@@ -59,25 +64,13 @@ const CTA = () => {
             </a>
 
             <button
-              onClick={() => scrollToSection('contato')}
+              onClick={() => scrollToSection("contato")}
               className="group border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300 flex items-center space-x-3 min-w-[280px] justify-center"
             >
               <Phone className="h-6 w-6" />
               <span>Solicitar Ligação</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>
-          </div>
-
-          <div className="mt-12 bg-gradient-to-r from-yellow-400/20 to-yellow-500/20 backdrop-blur-sm p-8 rounded-3xl border border-yellow-400/30">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              💎 Oferta Especial para Novos Clientes
-            </h3>
-            <p className="text-blue-100 text-lg mb-4">
-              Primeiros 30 dias de gestão com taxa reduzida para você testar nossos serviços sem risco!
-            </p>
-            <div className="text-yellow-400 font-bold text-xl">
-              Desconto de 50% no primeiro mês
-            </div>
           </div>
         </div>
       </div>

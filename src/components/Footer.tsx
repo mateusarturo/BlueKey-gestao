@@ -2,7 +2,6 @@ import React from 'react';
 import { 
   MessageCircle, 
   Mail, 
-  Instagram, 
   MapPin, 
   Phone,
   Shield,
@@ -33,7 +32,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="font-semibold text-yellow-400">Licenciado & Segurado</div>
-                <div className="text-blue-200 text-sm">CNPJ: 12.345.678/0001-90</div>
+                <div className="text-blue-200 text-sm">CNPJ: -----------------</div>
               </div>
             </div>
 
@@ -42,7 +41,6 @@ const Footer = () => {
               <div className="text-blue-100 text-sm">
                 • Superhost Partner Airbnb<br/>
                 • Booking.com Preferred Partner<br/>
-                • Certificação ISO 9001 em Gestão
               </div>
             </div>
           </div>
@@ -53,7 +51,7 @@ const Footer = () => {
             
             <div className="space-y-4">
               <a
-                href="https://wa.me/5521987654321"
+                href="https://wa.me/------------"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-blue-100 hover:text-yellow-400 transition-colors group"
@@ -63,12 +61,12 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-medium">WhatsApp</div>
-                  <div className="text-sm">(21) 98765-4321</div>
+                  <div className="text-sm">--------------</div>
                 </div>
               </a>
 
               <a
-                href="tel:+5521987654321"
+                href="tel:------------"
                 className="flex items-center space-x-3 text-blue-100 hover:text-yellow-400 transition-colors group"
               >
                 <div className="bg-blue-800 p-2 rounded-lg group-hover:bg-yellow-400/20 transition-colors">
@@ -76,7 +74,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-medium">Telefone</div>
-                  <div className="text-sm">(21) 3333-4444</div>
+                  <div className="text-sm">----------------</div>
                 </div>
               </a>
 
@@ -89,7 +87,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-medium">E-mail</div>
-                  <div className="text-sm">contato@bluekeygestao.com.br</div>
+                  <div className="text-sm">bluekeygestoes@gmail.com</div>
                 </div>
               </a>
 
@@ -99,7 +97,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-medium">Endereço</div>
-                  <div className="text-sm">Rio de Janeiro, RJ</div>
+                  <div className="text-sm">Volta Redonda, RJ</div>
                 </div>
               </div>
             </div>
@@ -107,24 +105,6 @@ const Footer = () => {
 
           {/* Social & Legal */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-yellow-400">Redes Sociais</h3>
-            
-            <div className="space-y-4 mb-8">
-              <a
-                href="https://instagram.com/bluekeygestao"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-3 text-blue-100 hover:text-yellow-400 transition-colors group"
-              >
-                <div className="bg-blue-800 p-2 rounded-lg group-hover:bg-yellow-400/20 transition-colors">
-                  <Instagram className="h-5 w-5" />
-                </div>
-                <div>
-                  <div className="font-medium">Instagram</div>
-                  <div className="text-sm">@bluekeygestao</div>
-                </div>
-              </a>
-            </div>
 
             <h4 className="font-semibold mb-4 text-yellow-400">Links Importantes</h4>
             <div className="space-y-2">
@@ -155,7 +135,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/5521987654321?text=Olá! Quero uma análise gratuita do meu imóvel."
+                href="https://wa.me/-------?text=Olá! Quero uma análise gratuita do meu imóvel."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-8 py-3 rounded-full font-bold hover:from-yellow-500 hover:to-yellow-600 transition-all"
@@ -163,7 +143,7 @@ const Footer = () => {
                 Análise Gratuita via WhatsApp
               </a>
               <a
-                href="mailto:contato@bluekeygestao.com.br?subject=Solicitar Análise de Rentabilidade"
+                href="mailto:bluekeygestoes@gmail.com?subject=Solicitar Análise de Rentabilidade"
                 className="border-2 border-yellow-400 text-yellow-400 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 hover:text-blue-900 transition-all"
               >
                 Solicitar por E-mail
@@ -181,9 +161,7 @@ const Footer = () => {
               © {currentYear} BlueKey Gestão. Todos os direitos reservados.
             </div>
             <div className="flex items-center space-x-6">
-              <span>CNPJ: 12.345.678/0001-90</span>
-              <span className="hidden md:block">•</span>
-              <span>Desenvolvido com ❤️ no Rio de Janeiro</span>
+              <span>CNPJ: --------</span>
             </div>
           </div>
         </div>

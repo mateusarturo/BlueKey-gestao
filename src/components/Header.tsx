@@ -33,7 +33,7 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8">
-            {['serviços', 'planos', 'sobre', 'contato'].map((item) => (
+            {['sobre', 'serviços', 'contato'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
